@@ -1,3 +1,114 @@
-h1 {
-    color: blue;
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 100px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin: 8px;
+}
+
+.google-search-bar {
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 25px auto;
+    width: 638px;
+}
+
+.google-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.google-button:hover {
+    border: 2px solid #8b969e
+}
+
+.google-advanced {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.gray-line {
+    margin: 40px 0 40px 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.find-pages {
+    margin: 20px;
+}
+
+.advanced-search {
+    margin: 20px;
+}
+
+.row-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.left {
+    width: 200px;
+}
+
+.adv-btn-input {
+    width: 500px;
+}
+
+.adv-button {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.adv-button-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 700px;
+    margin-top: 20px;
 }
